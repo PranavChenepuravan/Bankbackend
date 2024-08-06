@@ -2,7 +2,7 @@ import express from 'express'
 import mongoose from 'mongoose'
 const app=express()
 import cors from 'cors'
-mongoose.connect('mongodb://127.0.0.1:27017/Bank')
+mongoose.connect('mongodb+srv://bankapp:bHFfFdFcFCP5mZKg@cluster0.tz0jh3o.mongodb.net/prestigebank')
 .then(()=> console.log('Connected !'));
 
 import commonRouter from './routes/common.js' 
